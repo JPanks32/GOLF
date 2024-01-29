@@ -14,6 +14,13 @@ if(room == Room_Menu)
 
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1
+	/// @DnDHash : 4314BDA5
+	/// @DnDParent : 2AB78B10
+	/// @DnDArgument : "var" "fullscreen"
+	global.fullscreen = 0;
+
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
 	/// @DnDHash : 235EE5F4
 	/// @DnDParent : 2AB78B10
 	/// @DnDArgument : "var" "rebounds"
