@@ -1,0 +1,7 @@
+Only Easy and Medium levels are implemented.
+The goal is to get a hole in one with the maximum number of rebounds
+You create new platforms by left-clicking the board at the bottom of the screen. You can adjust its rotation with the arrow keys or the 'a' and 'd' keys. 
+Place the platforms by left clicking. You can pick them up again by ctrl + left clicking them. 
+The board has a radius around it that needs to be empty before it will place, depicted by a white circle.
+Right-clicking or pressing the 'shift' key lets you move the arrow on the ball, which is the direction that it launches at. left clicking locks that direction in place.
+Launch the ball with the enter key.
