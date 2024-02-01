@@ -38,6 +38,39 @@ if(placed == 0)
 		direction += 15;
 	}
 
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 091B72EE
+	/// @DnDParent : 35075DE0
+	else
+	{
+		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
+		/// @DnDVersion : 1
+		/// @DnDHash : 54395C45
+		/// @DnDParent : 091B72EE
+		/// @DnDArgument : "key" "vk_left"
+		var l54395C45_0;
+		l54395C45_0 = keyboard_check_released(vk_left);
+		if (l54395C45_0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+			/// @DnDVersion : 1
+			/// @DnDHash : 4D0FADF4
+			/// @DnDParent : 54395C45
+			/// @DnDArgument : "angle" "15"
+			/// @DnDArgument : "angle_relative" "1"
+			image_angle += 15;
+		
+			/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+			/// @DnDVersion : 1
+			/// @DnDHash : 5FD636C8
+			/// @DnDParent : 54395C45
+			/// @DnDArgument : "direction" "15"
+			/// @DnDArgument : "direction_relative" "1"
+			direction += 15;
+		}
+	}
+
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
 	/// @DnDVersion : 1
 	/// @DnDHash : 23CED548
@@ -62,6 +95,39 @@ if(placed == 0)
 		/// @DnDArgument : "direction" "-15"
 		/// @DnDArgument : "direction_relative" "1"
 		direction += -15;
+	}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 3D5C30F9
+	/// @DnDParent : 35075DE0
+	else
+	{
+		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
+		/// @DnDVersion : 1
+		/// @DnDHash : 4929C78B
+		/// @DnDParent : 3D5C30F9
+		/// @DnDArgument : "key" "vk_right"
+		var l4929C78B_0;
+		l4929C78B_0 = keyboard_check_released(vk_right);
+		if (l4929C78B_0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Sprite_Rotate
+			/// @DnDVersion : 1
+			/// @DnDHash : 67E09EFB
+			/// @DnDParent : 4929C78B
+			/// @DnDArgument : "angle" "-15"
+			/// @DnDArgument : "angle_relative" "1"
+			image_angle += -15;
+		
+			/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+			/// @DnDVersion : 1
+			/// @DnDHash : 43C05EB1
+			/// @DnDParent : 4929C78B
+			/// @DnDArgument : "direction" "-15"
+			/// @DnDArgument : "direction_relative" "1"
+			direction += -15;
+		}
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
